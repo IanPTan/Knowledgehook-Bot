@@ -5,7 +5,7 @@ options = webdriver.ChromeOptions()
 options.binary_location = '/usr/bin/brave'
 driver = webdriver.Chrome(chromeBinary, chrome_options=options)
 
-driver.get('https://app.knowledgehook.com/app/Student/cf186ebb-3bba-ea11-974a-0050568c42b6/Mission/fead35d3-3bba-ea11-974a-0050568c42b6')
+driver.get('https://app.knowledgehook.com/app/student/e32b2f69-fb65-ee11-9761-0050568c42b6')
 
 def skipClick(x):
     while 1:
